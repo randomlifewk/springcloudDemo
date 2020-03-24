@@ -9,6 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>da-registry</module>
+        <module>da-gateway</module>
+        <module>da-item</module>
     </modules>
     <packaging>pom</packaging>
 

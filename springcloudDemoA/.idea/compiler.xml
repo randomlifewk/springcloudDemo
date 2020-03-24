@@ -7,10 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="da-gateway" />
+        <module name="da-item-pojo" />
+        <module name="da-item-service" />
         <module name="da-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="da-gateway" target="1.8" />
+      <module name="da-item" target="1.8" />
+      <module name="da-item-pojo" target="1.8" />
+      <module name="da-item-service" target="1.8" />
       <module name="da-registry" target="1.8" />
       <module name="springcloudDemoA" target="1.8" />
     </bytecodeTargetLevel>
